@@ -1,7 +1,9 @@
 # Write a program to swap two numbers using a third variable.
 
-x=56
-y=90
-print("before swapping=" ,"x=",x,"y=",y)
-x,y=y,x
-print("after swapping=" ,"x=",x,"y=",y)
+x = 56
+y = 90
+print("Before swapping:", "x =", x, "y =", y)
+temp = x
+x = y
+y = temp
+print("After swapping:", "x =", x, "y =", y)
