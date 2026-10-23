@@ -6,5 +6,4 @@ total=1
 for digit in num:
     total *= int(digit)
 
-
 print(total)
