@@ -15,5 +15,5 @@ a=int(input("Enter a first Number="))
 b=int(input("Enter a second Number="))
 
 for num in range(1, b+1):
-    if check_prime(num):.
+    if check_prime(num):
         print(num,end=" ")
